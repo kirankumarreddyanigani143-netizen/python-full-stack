@@ -1,0 +1,216 @@
+a = lambda x:x**2
+print(a(5))
+
+
+a = [1,10,30,9,60,20,25]
+b = list(filter(lambda x: x % 2 == 0, a))
+print(b)
+
+
+
+a = [1,10,30,9,60,20,25]
+b = list(filter(lambda x: x % 2 == 0, a))
+print(b)
+c = list(map(lambda x: x**2, a))
+print(c)
+
+
+a = [1,10,30,9,60,20,25]
+def function(x):
+    return x > 20
+b = list(filter(function, a))
+print(b)
+c = list(map(function, a))
+print(c)
+
+
+
+def fact(a):
+    if a == 0:
+        return 1
+    else:
+        return a * fact(a - 1)
+
+print(fact(6))
+
+
+
+
+def fib(a):
+    if a == 0:
+        return 0
+    elif a == 1:
+        return 1
+    else:
+        return fib(a - 1) + fib(a - 2)
+
+print(fib(10))
+
+
+
+
+s ={1, 2, 3, 4, 4,3}
+print(s)
+
+s.add(5)
+s.remove(5)
+s.pop()
+print(s)
+
+
+
+s ={1, 2, 3, 4, 4,3}
+print(s)
+
+s.add(5)
+s.remove(5)
+s.pop()
+print(s)
+
+
+
+
+s ={1, 2, 3, 4, 4,3}
+print(s)
+
+s.add(5)
+s.remove(5)
+s.pop()
+print(s)
+
+
+
+
+s ={1, 2, 3, 4, 4,3}
+print(s)
+
+s.add(5)
+s.remove(5)
+s.pop()
+print(s)
+
+
+
+
+s ={1, 2, 3, 4, 4,3}
+print(s)
+
+s.add(5)
+s.remove(5)
+s.pop()
+print(s)
+
+
+
+
+s = 'hello'
+
+print(s[0].upper())  # Output: H
+print(s[1].upper())  # Output: E
+print(s[2].upper())  # Output: L
+print(s[3].upper())  # Output: L
+print(s[4].upper())
+
+
+
+
+s = 'hello world'
+
+print(s.title())
+print(s.lstrip())
+print(s.rstrip())
+print(s.replace('hello','namaskar'))
+print(s.find('hello'))
+print(s.count(' '))
+print(len(s))
+print(s.endswith('lo'))
+
+
+
+
+
+vowels = "aeiou"
+count =0
+for ch in vowels:
+    print(ch)
+    count ;
+
+
+
+
+
+
+consonants = "bcdfghjklmnpqrstvwxyz"
+count = 0
+
+for ch in consonants:
+    if ch.lower() in "bcdfghjklmnpqrstvwxyz":
+        
+        count += 1
+        
+        
+print("no.of consonants:", count)
+
+
+
+
+
+
+
+vowels = ("aeiou")
+count = 0
+
+for ch in vowels:
+    if ch.lower() in "aeiou":
+        count += 1
+
+print("Number of vowels:", count)
+
+
+
+
+consonents = "bcdfghjklmnpqrstvwxyz"
+count =0
+for ch in consonents:
+    print(ch)
+    count ;
+
+
+
+def validate_phone(phone):
+    if len(phone) != 10:
+        raise ValueError(f'Phone must have 10 digits')
+    return True
+
+try:
+    validate_phone('1234567')
+except ValueError as e:
+    print(f'Error: {e}')
+
+
+
+
+
+ from unittest import result
+
+
+ try:
+     num = int(input("Enter a number: "))
+     print("You entered:", num)
+ except zeroDivisionError:
+       print("Error: cannot divide by zero.")
+ except ValueError:
+     print("error: enter a valid number.")
+
+ else:
+     print("success:", result)
+
+ finally:
+     print("Execution completed.")
+
+
+
+
+
+
+
